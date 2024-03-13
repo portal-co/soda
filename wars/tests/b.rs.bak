@@ -1,0 +1,2 @@
+wars::wars!("target/wasm32-wasi/release/wasm_engine_test.wasm" => A: ABase "ar");
+trait ABase{}

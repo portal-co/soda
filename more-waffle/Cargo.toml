@@ -1,0 +1,14 @@
+[package]
+name = "more-waffle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow.workspace = true
+bimap.workspace = true
+paste = "1.0.14"
+rand.workspace = true
+simple-encryption.workspace = true
+waffle.workspace = true

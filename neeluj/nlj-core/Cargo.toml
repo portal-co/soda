@@ -1,0 +1,18 @@
+[package]
+name = "nlj-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csyncify.workspace = true
+more-waffle.workspace = true
+once_cell.workspace = true
+quinify2 = { version = "0.1.0", path = "../../quinify2" }
+waffle.workspace = true
+waffle-ic.workspace = true
+wars.workspace = true
+anyhow = "1.0.79"
+async-trait = "0.1.77"
+futures.workspace = true

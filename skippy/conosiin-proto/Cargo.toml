@@ -1,0 +1,19 @@
+[package]
+name = "conosiin-proto"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow.workspace = true
+arti-client={workspace = true,optional=true}
+async-trait = "0.1.77"
+futures.workspace = true
+tor-cell={workspace = true,optional=true}
+tor-hscrypto={workspace = true,optional=true}
+tor-hsservice={workspace = true,optional=true}
+tor-rtcompat={workspace = true,optional=true}
+
+[features]
+tor = ["dep:arti-client","dep:tor-cell","dep:tor-hscrypto","dep:tor-hsservice","dep:tor-rtcompat"]

@@ -1,0 +1,14 @@
+[package]
+name = "axle-waffle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow.workspace = true
+axle = { version = "0.1.0", path = "../axle" }
+id-arena = "2.2.1"
+indexmap.workspace = true
+more-waffle.workspace = true
+waffle.workspace = true
